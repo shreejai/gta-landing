@@ -37,7 +37,7 @@ const Hero = () => {
       },
     });
 
-    tl.to(".fade-[out]", {
+    tl.to(".fade-out", {
       opacity: 0,
       ease: "power1.inOut",
     })
